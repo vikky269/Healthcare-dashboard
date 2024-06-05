@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Maven+Pro:wght@400..900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 18px;
+    box-sizing: border-box;
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+@layer base {
+    html {
+      font-family: "Manrope", sans-serif;
+    }
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
